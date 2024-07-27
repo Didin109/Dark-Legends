@@ -1,0 +1,183 @@
+/* Base styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    color: #333;
+}
+
+/* Header styles */
+.header {
+    background-color: #000;
+    color: #ffd700;
+    padding: 20px 10px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Menu styles */
+.menu {
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+    padding: 15px 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+.menu a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+}
+.menu a:hover {
+    background-color: #575757;
+    border-radius: 5px;
+}
+
+/* Content styles */
+.content {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.content a {
+         font-size: 15px;
+         font-weight: bold;
+         text-decoration: underline;
+         padding: 0px;
+         max-width: 1200px;
+.content ui {
+         padding: 5px;
+}
+}
+
+/* Top-up Menu styles */
+.top-up-menu {
+    display: flex;
+    justify-content: center;
+    margin: 30px 0;
+}
+.top-up-menu a {
+    background-color: #000;
+    color: #ffd700;
+    padding: 15px 30px;
+    margin: 0 15px;
+    text-decoration: none;
+    border-radius: 10px;
+    font-size: 18px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease;
+}
+.top-up-menu a:hover {
+    background-color: #575757;
+}
+.top-up-key p1 {
+    font-size: 15px;
+    font-weight: 0;
+    margin-bottom: 5px;
+    margin: 0px;
+}
+
+/* Rank list styles */
+.rank-list {
+    list-style: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+}
+.rank-item {
+    background: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+.rank-item:hover {
+    transform: translateY(-5px);
+}
+.rank-item h3 {
+    margin-top: 0;
+    color: #000;
+}
+.features {
+    margin-left: 20px;
+    padding-left: 10px;
+    border-left: 3px solid #ffd700;
+}
+
+/* Bottom Bar styles */
+.bottom-bar {
+    position: fixed;
+    bottom: 0;
+    width: 95%;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 10px;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bottom-bar .close-btn {
+    background-color:#ffd400;
+    border: none;
+    color: white;
+    padding: 10px 10px;
+    cursor: pointer;
+    margin-left: 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+.bottom-bar .close-btn:hover {
+    background-color: darkred;
+}
+
+/* Top-up Key and Money styles */
+.kit {
+    margin: 30px 0;
+}
+.kit {
+    list-style: none;
+    padding: 0;
+}
+.kit {
+    background: #fff;
+    border: 1px solid #ddd;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    transition: transform 0.3s ease;
+}
+.kit:hover {
+    transform: translateY(-5px);
+}
+.kit h3 {
+    margin-top: 0;
+    color: #000;
+}
+.kit p {
+    margin: ;
+}
+.no-underline {
+    text-decoration: none;
+}
+.no-underline a {
+    padding: 5px;
+    font-weight: bold;
+    color:#09a4b6;
+}
+.no-underline h1 {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 15px;
+}
+.no-underline p {
+  font-size: 1.5;
+}
